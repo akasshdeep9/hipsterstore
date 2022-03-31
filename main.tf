@@ -25,7 +25,7 @@ locals {
 # Deploy the Hello-Kubernetes Application Pod using the Helm Provider
 #_____________________________________________________________________
 
-resource "kubectl_manifest" "hipster" {{
+resource "kubectl_manifest" "hipster" {
   yaml_body = <<YAML
     # Copyright 2018 Google LLC
     #
@@ -717,4 +717,4 @@ resource "kubectl_manifest" "hipster" {{
         port: 9555
         targetPort: 9555
   YAML
-}}
+}
