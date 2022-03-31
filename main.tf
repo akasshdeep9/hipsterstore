@@ -56,7 +56,7 @@ resource "kubectl_manifest" "hipster" {
       template:
         metadata:
           labels:
-             app: emailservice
+          app: emailservice
         spec:
           terminationGracePeriodSeconds: 5
           containers:
