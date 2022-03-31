@@ -4,7 +4,7 @@
 #__________________________________________________________
 
 variable "tfc_organization" {
-  default     = "CiscoDevNet"
+  default     = "Netnology-MINT"
   description = "Terraform Cloud Organization."
   type        = string
 }
